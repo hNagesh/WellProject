@@ -1,0 +1,77 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F13-Delete WELL Membership",
+    "line": 9,
+    "id": "f13-delete-well-membership",
+    "tags": [],
+    "uri": "F13-AdminDeleteWELLMembership.feature",
+    "elements": [
+      {
+        "id": "f13-delete-well-membership;verifies-delete-well-membership",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verifies Delete WELL Membership",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User gets the authenticated user Token and store into json file",
+            "result": {
+              "status": "passed",
+              "duration": 1427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User gets the authenticated user Organisation Id and store into json file",
+            "result": {
+              "status": "passed",
+              "duration": 405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User gets the admin user token and store into json file",
+            "result": {
+              "status": "passed",
+              "duration": 449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User delete Membership by user Organisation Id",
+            "result": {
+              "status": "passed",
+              "duration": 3460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User verifies deleted Membership by status code 200 in response",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

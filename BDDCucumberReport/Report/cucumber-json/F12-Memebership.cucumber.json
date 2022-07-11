@@ -1,0 +1,227 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F03-WELL Create Membership",
+    "line": 9,
+    "id": "f03-well-create-membership",
+    "tags": [],
+    "uri": "F12-Memebership.feature",
+    "elements": [
+      {
+        "id": "f03-well-create-membership;well-keystone-subscription-page-validation",
+        "keyword": "Scenario",
+        "line": 181,
+        "name": "WELL Keystone Subscription page validation",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 180
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 182,
+            "name": "User logged in to the WELL certified account",
+            "result": {
+              "status": "passed",
+              "duration": 18154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 183,
+            "name": "User clicks on User menu",
+            "result": {
+              "status": "passed",
+              "duration": 2370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 184,
+            "name": "User clicks on WELL Membership from User menu",
+            "result": {
+              "status": "passed",
+              "duration": 5470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 186,
+            "name": "User clicks on Keystone Subscription button",
+            "result": {
+              "status": "passed",
+              "duration": 1027000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 188,
+            "name": "User enter Organization name",
+            "result": {
+              "status": "passed",
+              "duration": 5497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 189,
+            "name": "User upload Organization logo",
+            "result": {
+              "status": "passed",
+              "duration": 2226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 190,
+            "name": "User enter data to Organization Domains",
+            "result": {
+              "status": "passed",
+              "duration": 904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 191,
+            "name": "User enter data to Organization website",
+            "result": {
+              "status": "passed",
+              "duration": 1711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 192,
+            "name": "User check number of year",
+            "result": {
+              "status": "passed",
+              "duration": 501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 193,
+            "name": "User clicks on continue button for Organization Details",
+            "result": {
+              "status": "passed",
+              "duration": 494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 195,
+            "name": "User enter Name, Email and phone number",
+            "result": {
+              "status": "passed",
+              "duration": 7721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 196,
+            "name": "User check Agree to share point of contact",
+            "result": {
+              "status": "passed",
+              "duration": 1402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 197,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 199,
+            "name": "User enter Owner Name, Owner Email Address, Owner Job Title and Owner Phone Number",
+            "result": {
+              "status": "passed",
+              "duration": 7333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 200,
+            "name": "User clicks on the continue button",
+            "result": {
+              "status": "passed",
+              "duration": 3377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 202,
+            "name": "User select country and state",
+            "result": {
+              "status": "passed",
+              "duration": 4401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 203,
+            "name": "User enter Street, City and Postal code",
+            "result": {
+              "status": "passed",
+              "duration": 5449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 204,
+            "name": "User clicks on the Office Address continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 206,
+            "name": "User check on accept Terms and Conditions",
+            "result": {
+              "status": "passed",
+              "duration": 2408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 207,
+            "name": "User clicks on Proceed payment button",
+            "result": {
+              "status": "passed",
+              "duration": 756000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.7500" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-06-28T06:06:09" tests="0" file="cypress/integration/WELLPerformance_UIAutomation/F01-Login.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="F01-WELLCertified login" timestamp="2022-06-28T06:06:09" tests="2" time="25.7500" failures="0">
+    <testcase name="F01-WELLCertified login Login to application with Invalid user credentials" time="10.3170" classname="Login to application with Invalid user credentials">
+    </testcase>
+    <testcase name="F01-WELLCertified login Login to application with valid user credentials" time="15.4330" classname="Login to application with valid user credentials">
+    </testcase>
+  </testsuite>
+</testsuites>
